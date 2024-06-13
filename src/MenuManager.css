@@ -1,0 +1,71 @@
+.menu-manager {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-manager h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-form {
+    margin-bottom: 20px;
+  }
+  
+  .search-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search-form input:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  .btn-add {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .btn-add:hover {
+    background-color: #45a049;
+  }
+  
+  .modal-header {
+    background-color: #4CAF50;
+    color: white;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .modal-content {
+    border: 1px solid #ddd;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-footer {
+    border-top: none;
+    padding: 10px;
+  }
+  
+  .modal-footer button {
+    margin-left: 10px;
+  }
+  
+  .modal-footer button:first-child {
+    margin-left: 0;
+  }
+  

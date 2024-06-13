@@ -1,0 +1,81 @@
+.menu-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-table th,
+.menu-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #333; /*table headers and cells*/
+}
+
+.menu-table th {
+  background-color: #4CAF50;
+  color: #fff; /*table header text*/
+  cursor: pointer;
+}
+
+.menu-table th span {
+  font-size: 10px;
+  vertical-align: middle;
+  margin-left: 4px;
+  color: #fff; /*sort indicator*/
+}
+
+.menu-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.menu-table tr:hover {
+  background-color: #ddd;
+}
+
+.menu-table .actions {
+  text-align: center;
+}
+
+.menu-table button {
+  margin: 0 4px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.menu-table .actions .btn-info {
+  background-color: #2196F3;
+  color: #fff; /*button text*/
+}
+
+.menu-table .actions .btn-info:hover {
+  background-color: #0b7dda;
+}
+
+.menu-table .actions .btn-danger {
+  background-color: #f44336;
+  color: #fff; /*button text*/
+}
+
+.menu-table .actions .btn-danger:hover {
+  background-color: #da190b;
+}
+
+
+.menu-table input[type="text"],
+.menu-table input[type="number"],
+.menu-table textarea {
+  width: calc(100% - 24px); 
+  padding: 6px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333; /*input fields*/
+}

@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React, { useState } from 'react';
+import './App.css'; // Import global app styles
+import MenuManager from './MenuManager'; // Example import path
 
 function App() {
+  const [items, setItems] = useState([]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="header">
+        
       </header>
+      <div className="container">
+        <MenuManager items={items} setItems={setItems} />
+        {/* Add other components here */}
+      </div>
     </div>
   );
 }
